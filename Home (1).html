@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Stellar Astrology & Vastu</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1a1a1a;
+      color: #fff;
+      background-image: url('a.jpg');
+      background-size: cover;
+      background-position: center;
+      scroll-behavior: smooth;
+    }
+
+    /* Header and Navigation */
+    header {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #ff4500;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #ff4500;
+    }
+
+    /* Hero Section */
+    .hero {
+      padding: 100px 20px;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.6);
+      margin-bottom: 30px;
+      color: #fff;
+      animation: fadeIn 2s ease;
+    }
+
+    .hero-content h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .hero-content p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: 0 auto 20px;
+    }
+
+    .btn {
+      padding: 15px 30px;
+      background-color: #ff4500;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #ff6347;
+      transform: scale(1.05);
+    }
+
+    /* Feature Section */
+    .features {
+      padding: 50px 20px;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.7);
+      margin-bottom: 30px;
+    }
+
+    .feature {
+      margin-bottom: 30px;
+      animation: fadeInUp 1s ease;
+    }
+
+    .feature h3 {
+      font-size: 28px;
+      color: #ff4500;
+      margin-bottom: 10px;
+    }
+
+    .feature p {
+      font-size: 18px;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    /* Map Container */
+    .map-container {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .map-container iframe {
+      border: 2px solid #ff4500;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      width: 100%;
+      max-width: 600px;
+      height: 450px;
+    }
+
+    /* Footer */
+    footer {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      text-align: center;
+      font-size: 16px;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Stellar Astrology & Vastu</h1>
+    <nav>
+      <ul>
+        <li><a href="Home (1).html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h2>Welcome to Our Astrology Website</h2>
+      <p>Get personalized horoscopes, birth charts, and astrological insights.</p>
+      <a href="#contact" class="btn">Get Started</a>
+    </div>
+  </section>
+
+  <section class="features" id="services">
+    <div class="feature">
+      <h3>About Us</h3>
+      <p>We provide detailed readings of your birth chart, helping you understand life challenges and opportunities. Honesty and accuracy are our guiding principles.</p>
+    </div>
+    <div class="feature">
+      <h3>Online Service</h3>
+      <p>Our online services through WhatsApp and Zoom ensure seamless guidance, no matter the distance.</p>
+    </div>
+    <div class="feature">
+      <h3>In-Person Service</h3>
+      <p>Our hands-on service includes in-depth career counseling and personal guidance sessions.</p>
+    </div>
+  </section>
+
+  <div class="map-container">
+    <b>We are located in Manamiju Bridge.<br>If you wish to visit us, contact us for more details.</b>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14124.757145930638!2d85.3142133!3d27.7423071!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19283b9e5f5d%3A0x82492dd87c3ffcc6!2sManamaiju%20Bridge%2C%2044600!5e0!3m2!1sen!2snp!4v1686553485253!5m2!1sen!2snp"></iframe>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Stellar Astrology & Vastu. All rights reserved.</p>
+  </footer>
+</body>
+</html>
